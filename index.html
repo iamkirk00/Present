@@ -1,40 +1,69 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+  <meta charset="utf-8">
+  <title>Book of Mormon Study</title>
+  <meta name="description" content="A presentation for studying the Book of Mormon">
+  <meta name="author" content="Your Name">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+  <!-- Include reveal.js CSS from CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css" id="theme">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+  <!-- Custom styles for your presentation -->
+  <style>
+    .reveal h1, .reveal h2, .reveal h3 {
+      color: #1a73e8;
+    }
+    .reveal p {
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <!-- Slide 1: Title Slide -->
+      <section>
+        <h1>Book of Mormon Study</h1>
+        <h3>Chapters 1-10</h3>
+        <p>Presented by Your Name</p>
+      </section>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+      <!-- Slide 2: Chapter 1 Overview -->
+      <section>
+        <h2>Chapter 1: Nephi's Vision</h2>
+        <p>Key Themes:</p>
+        <ul>
+          <li>Obedience to God</li>
+          <li>Faith in Christ</li>
+          <li>Importance of scripture</li>
+        </ul>
+      </section>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+      <!-- Slide 3: Interactive Question -->
+      <section>
+        <h2>Discussion Question</h2>
+        <p>What does Nephi's vision teach us about personal revelation?</p>
+        <p><em>Share your thoughts in the chat!</em></p>
+      </section>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+      <!-- Add more slides as needed -->
+    </div>
+  </div>
+
+  <!-- Include reveal.js script from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+  <script>
+    // Initialize reveal.js
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      center: true,
+      hash: true,
+      transition: 'slide', // Transition style
+    });
+  </script>
+</body>
 </html>
